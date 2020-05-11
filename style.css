@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555;
+    line-height: 1.8em;
+}
+
+.tabs{
+    width: 960px;
+    margin: 10px auto;
+
+}
+.full{
+height: 640px;
+overflow: hidden;
+}
+.full img{
+    width: 100%;
+}
+.items {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+}
+.items li{
+    flex-basis: 32%;
+    height: 190px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.items img{
+width: 100%;
+}
